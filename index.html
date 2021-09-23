@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redux - Modern Web 2021</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
+    />
+  </head>
+  <body>
+    <div
+      style="
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      "
+    >
+      <div class="ui segment">
+        <div class="ui buttons">
+          <button class="ui button" id="withdraw">Withdraw $10</button>
+          <button class="ui button" id="money"></button>
+          <button class="ui button" id="deposit">Deposit $10</button>
+        </div>
+      </div>
+
+      <div class="ui toggle checkbox" id="log">
+        <input type="checkbox" name="public" />
+        <label>Log current money</label>
+      </div>
+    </div>
+    <!-- <script src="https://unpkg.com/redux@4.1.1/dist/redux.js"></script> -->
+    <script src="./redux.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
